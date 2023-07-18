@@ -19,7 +19,7 @@ const InputList = () => {
 	};
 
 	const handleDelete = (deleteIndex) => {
-		const filterArray = list.filter((element, index) => index !== deleteIndex ) 
+		const filterArray = list.filter((element, index) => index !== deleteIndex)
 		setList(filterArray);
 	};
 
@@ -32,7 +32,7 @@ const InputList = () => {
 					</li>
 					{list.map((element, index) => {
 						return (
-							<li className="list-group-item" key={index}>{element.task} <button onClick={() => handleDelete(index)} >X</button></li>
+							<li className="list-group-item" key={index}>{element.task} <button className="btn" onClick={() => handleDelete(index)} ><i class="fa-solid fa-trash-can"></i></button></li>
 						)
 					})}
 
