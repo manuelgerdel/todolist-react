@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from "react"
 
-// Crear usuario: done con thunder client
-// Buscar lista de tareas: done 
-// Mostrar lista de tareas: done
-// Agregar tarea a base de datos con Enter: done 
-// Borrar tarea de la api al borrar:
-
 const urlBase = "https://express-blog-xa7v.onrender.com";
 const urlUsername = "https://express-blog-xa7v.onrender.com/todo/users/manuelgerdel";
 
